@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainheader{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    margin-right: 100px;
+    background-image: url("https://thumbs.dreamstime.com/b/potted-indoor-plants-sunny-windowsill-home-146885954.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.logo{
+    width: 150px;
+    height: 70px;
+    display: flex;
+    padding-left: 50px;
+}
+.mainheader nav{
+    padding-left: 400px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#bs{
+    margin-right:5px ;
+    font-size: 20px;
+    background-color: green;
+    color: honeydew;
+    border: none;
+    height: 50px;
+    width: 105px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.container{
+    margin-top: 30px;
+    height: 350px;
+    width: auto;
+}
+#i1{
+    
+    height: 350px;
+    width: 700px;
+}
+.cont h4{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-size: x-large;
+  font-weight: 400;
+  color: rgb(4, 73, 25);
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+}
+
+#col2{
+    /* border: 1px solid black; */
+    background-color: white;
+    width:570px;
+    height: 190px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 600;
+}
+#col2 p{
+    text-align: justify;
+    text-indent: 60px;
+}
+.contain{
+    padding-top: 30px;
+}
+.col-4 img{
+    width: 180;
+    height:300 ;
+    align-items: initial;
+}
+.x1{
+    padding: 10px;
+    padding-right: auto;
+    padding-left: auto;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.x2{
+    margin-right: 10px;
+    padding-top: 2px;
+    text-align: justify;
+    /* border: 1px solid blue; */
+}
+#heading{
+    padding-top: 20px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    background-image: url('https://www.vecteezy.com/png/8475683-tropical-green-leaf-pattern-background');
+}
+.footer{
+    margin-top: 10px;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(7, 46, 7);
+}
+
+#fc1{
+    text-align: left;
+    
+}
+#f1{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20%;
+}
+#f2{
+    color: rgb(76, 194, 101);
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 10%;
+    text-align: justify;
+}
+#f3{
+    color:rgb(76, 194, 101) ;
+}
+#f4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 12%;
+}
+#fimg{
+    height: 40px;
+    width: 140px;
+    margin-top: 20%;
+}
+#email{
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 8px;
+    color: honeydew;
+}
+#butent{
+        background-color: green;
+        color: honeydew;
+        border: none;
+        height: 30px;
+        width: 70px;
+        border-radius: 10px;
+        padding: 3px;
+        margin-top: 10px;
+}
